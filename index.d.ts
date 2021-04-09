@@ -1,5 +1,5 @@
 import { Plugin } from 'vite'
 
-declare const graphqlPlugin: Plugin
+declare function graphqlPlugin(): Plugin
 
-export = graphqlPlugin
+export default graphqlPlugin
