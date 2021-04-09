@@ -1,7 +1,7 @@
 import os from 'os'
 import gql from 'graphql-tag'
 
-import generateOutput from './generateOutput'
+import generateOutput from './utils/generateOutput'
 import expandImports from './utils/expandImpots'
 
 const transform = (code) => {
