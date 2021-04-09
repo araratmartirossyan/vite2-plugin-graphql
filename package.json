@@ -1,11 +1,11 @@
 {
-  "name": "vite2-plugin-graphql",
-  "version": "0.1.0",
+  "name": "vite2-graphql-plugin",
+  "version": "0.0.2",
   "description": "Vite plugin for using .graphql extension",
   "main": "index.js",
   "scripts": {},
   "keywords": [
-    "vite",
+    "vite2",
     "graphql"
   ],
   "author": "Ararat Martirossyan <ararat.m.nl.icwt@gmail.com>",

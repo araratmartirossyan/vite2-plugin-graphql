@@ -1,4 +1,4 @@
-export default () => `
+module.exports = () => `
   // Collect any fragment/type references from a node, adding them to the refs Set
   function collectFragmentReferences(node, refs) {
     if (node.kind === 'FragmentSpread') {

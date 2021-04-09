@@ -1,5 +1,5 @@
-import { Plugin } from "vite";
+import { Plugin } from 'vite'
 
-declare const graphqlPlugin: Plugin;
+declare const graphqlPlugin: Plugin
 
-export = graphqlPlugin;
+export = graphqlPlugin

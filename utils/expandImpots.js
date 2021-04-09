@@ -1,4 +1,4 @@
-export default function expandImports(source) {
+module.exports = function expandImports(source) {
   const lines = source.split(/\r\n|\r|\n/)
   let outputCode = `
     var names = {};

@@ -1,8 +1,8 @@
-import os from 'os'
-import gql from 'graphql-tag'
+const os = require('os')
+const gql = require('graphql-tag')
 
-import generateOutput from './utils/generateOutput'
-import expandImports from './utils/expandImpots'
+const generateOutput = require('./utils/generateOutput')
+const expandImports = require('./utils/expandImpots')
 
 const transform = (code) => {
   const doc = gql`
@@ -49,7 +49,7 @@ const transform = (code) => {
 
 const fileRegex = /\.(graphql)$/
 
-export default function viteGraphQlPluing() {
+module.exports = function viteGraphQlPluing() {
   return {
     name: 'vite-plugin-graphql',
     async transform(src, id) {
